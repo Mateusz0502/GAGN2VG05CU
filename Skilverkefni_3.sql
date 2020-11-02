@@ -29,7 +29,7 @@ end €€
 
 create procedure SingleStudent(student_id int)
 begin
-	select * from students where studentID = student_id;
+	select * from Students where studentID = student_id;
 end €€
 
 create procedure StudentList()
