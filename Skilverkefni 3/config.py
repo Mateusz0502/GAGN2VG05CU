@@ -1,0 +1,5 @@
+USER = 'root'
+PASSWORD = 'mateusz13'
+HOST = 'localhost'
+DB = 'ProgressTracker_v6'
+AUTH = 'mysql_native_password'
