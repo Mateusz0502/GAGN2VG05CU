@@ -37,11 +37,11 @@ begin
 	select * from Students;
 end €€
 
-create procedure UpdateStudent(student_id int, f_name varchar(55), l_name varchar(55), d_o_b date, starting_on int)
+create procedure UpdateStudent(student_id int, first_name varchar(55), last_name varchar(55), date_of_birth date, starting_on int)
 begin
 		update Students
-	set firstname = f_name, startSemester = starting_on
-    where dob = ndob;
+	set firstname = first_name, startSemester = starting_on
+    where dob = date_of_birth;
 end €€
 
 create procedure DeleteStudents(student_id int)
