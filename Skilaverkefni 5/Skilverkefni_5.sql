@@ -19,3 +19,5 @@ begin
     select distinct courseNumber from PossibleCourses where restrictorID is null;
 end €€
 delimiter ;
+											
+call CoursePicker(1,9);											
