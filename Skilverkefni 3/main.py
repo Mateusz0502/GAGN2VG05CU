@@ -170,10 +170,10 @@ class CourseDB(DbConnector):
         if result:
             rows_affected = int(result[0][0])
         return rows_affected
-	
-	def get_restrictors(self):
-		result = self.execute_procedure('courseRestrictorList')
-		if result:
-			return result
-		else:
-			return list()
+    	
+    def get_restrictors(self):
+	result = self.execute_procedure('courseRestrictorList')
+	if result:
+	    return result
+	else:
+	    return list()
